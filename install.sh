@@ -4,4 +4,4 @@ sudo sh -c 'echo deb http://pkg.jenkins.io/debian-stable binary/ > /etc/apt/sour
 sudo apt update
 sudo apt install jenkins
 echo "your user key:"
-sudo /var/lib/jenkins/secrets/initialAdminPassword
+sudo cat /var/lib/jenkins/secrets/initialAdminPassword
